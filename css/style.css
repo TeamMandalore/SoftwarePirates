@@ -1,10 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic");
+
 body {
     background-color: white;
+    font-family: 'Neucha', cursive;
+    font-size: 18px;
 }
 
 #wrapper {
     margin: 0 auto;
     width: 1600px;
-    height: 1450px;
+    min-height: 1450px;
     background: url("../img/ship-wheel.png") no-repeat;
+}
+
+header {
+    padding: 35px 0 0 0;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
 }
