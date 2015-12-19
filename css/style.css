@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1600px;
+    height: 1450px;
+    background: url("../img/ship-wheel.png") no-repeat;
+}
