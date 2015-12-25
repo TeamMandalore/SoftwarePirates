@@ -2,8 +2,13 @@
 
 body {
     background-color: white;
-    font-family: 'Neucha', cursive;
+    font-family: 'Neucha', cursive, Helvetica, Arial, sans-serif;
     font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5em;
+    color:#fff;
+    color:rgba(255,255,255,.8);
+    font-weight: normal;
 }
 
 #wrapper {
@@ -17,6 +22,7 @@ header {
 }
 
 h1 {
+    margin-top: 20px;
     font-size: 4em;
     font-weight: 700;
     text-align: center;
@@ -38,4 +44,24 @@ h1 {
             -7px 6px #cdd2d5,
             -7px 8px #808d93,
             -8px 7px #cdd2d5;
+}
+
+header nav {
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+header nav ul li{
+    border: none;
+    text-align: center;
+    width: 175px;
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li a {
+    font-size: 1.5em;
+    color: #0BB8FF;
 }
