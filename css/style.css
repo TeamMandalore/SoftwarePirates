@@ -8,9 +8,8 @@ body {
 
 #wrapper {
     margin: 0 auto;
-    width: 1600px;
     min-height: 1450px;
-    background: url("../img/ship-wheel.png") no-repeat;
+    background:#505D6E url(../img/pirate-ship-wallpaper.jpg) no-repeat center center fixed;
 }
 
 header {
