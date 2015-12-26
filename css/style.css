@@ -16,7 +16,7 @@ body {
 	#wrapper {
 		margin: 0 auto;
 		width: 80%;
-		border: 1px solid tomato;
+		border: none;
 	}
 
 	header {
@@ -51,7 +51,10 @@ body {
 	main {
 		width: 65%;
 		margin: 2% auto;
-
+		background-color: rgba(244, 241, 235, 0.4);
+		border-radius: 25px;
+		padding: 2%;
+		border: solid 5px rgba(128, 127, 126, 0.8);
 	}
 
 	main img {
@@ -62,6 +65,9 @@ body {
 	main p {
 		width: 100%;
 		text-align: justify;
+		font-size: 1.2em;
+		color: rgba(45, 44, 43, 0.8);
+		line-height: 150%;
 	}
 
 	h1 {
