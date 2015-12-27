@@ -35,26 +35,32 @@ body {
 	}
 
 	header nav ul li {
-		border: none;
+		padding: 15px;
+		border: solid 3px rgba(118, 117, 116, 0.8);
+		border-radius: 5px;
 		text-align: center;
 		width: 175px;
 		list-style: none;
 		display: inline-block;
 	}
 
+	header nav ul li:hover {
+		background-color: rgba(2, 88, 159, 0.6);
+	}
+
 	header nav ul li a {
 		text-decoration: none;
 		font-size: 1.5em;
-		color: #0BB8FF;
+		color: rgba(25, 24, 23, 0.7);
 	}
 
 	main {
 		width: 65%;
 		margin: 2% auto;
-		background-color: rgba(244, 241, 235, 0.4);
+		background-color: rgba(234, 231, 235, 0.4);
 		border-radius: 25px;
 		padding: 2%;
-		border: solid 5px rgba(128, 127, 126, 0.8);
+		border: solid 8px rgba(118, 117, 116, 0.8);
 	}
 
 	main img {
@@ -66,8 +72,9 @@ body {
 		width: 100%;
 		text-align: justify;
 		font-size: 1.2em;
-		color: rgba(45, 44, 43, 0.8);
+		color: rgba(25, 24, 23, 0.8);
 		line-height: 150%;
+		letter-spacing: 2px;
 	}
 
 	h1 {
