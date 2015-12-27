@@ -57,7 +57,11 @@ body {
 	main {
 		width: 65%;
 		margin: 2% auto;
-		background-color: rgba(234, 231, 235, 0.4);
+		/*background-color: rgba(234, 231, 235, 0.4);*/
+		background: -moz-linear-gradient(-45deg,  rgba(206,220,231,1) 0%, rgba(206,220,231,0.84) 11%, rgba(166,184,195,0.59) 28%, rgba(115,137,148,0.81) 50%, rgba(75,100,112,0.62) 67%, rgba(75,100,112,0.59) 70%, rgba(75,100,112,1) 100%);
+		background: -webkit-linear-gradient(-45deg,  rgba(206,220,231,1) 0%,rgba(206,220,231,0.84) 11%,rgba(166,184,195,0.59) 28%,rgba(115,137,148,0.81) 50%,rgba(75,100,112,0.62) 67%,rgba(75,100,112,0.59) 70%,rgba(75,100,112,1) 100%);
+		background: linear-gradient(135deg,  rgba(206,220,231,1) 0%,rgba(206,220,231,0.84) 11%,rgba(166,184,195,0.59) 28%,rgba(115,137,148,0.81) 50%,rgba(75,100,112,0.62) 67%,rgba(75,100,112,0.59) 70%,rgba(75,100,112,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#4b6470',GradientType=1 );
 		border-radius: 25px;
 		padding: 2%;
 		border: solid 8px rgba(118, 117, 116, 0.8);
@@ -66,6 +70,7 @@ body {
 	main img {
 		float: left;
 		margin: 20px;
+		width: 35%;
 	}
 
 	main p {
