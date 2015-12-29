@@ -141,10 +141,7 @@ a:focus {
     .intro {
 	height: 100%;
 	padding: 0;
-	background-image: url(../../../../Documents/Unnamed%20Site%202/pirate-ship-wallpaper.jpg);
-	background-size: cover;
-	background-position: center 0%;
-    }
+	}
 
     .intro .intro-body .brand-heading {
 	font-size: 71px;
@@ -177,6 +174,10 @@ a:focus {
         margin: 15px;
         width: 25%;
     }
+
+	#program .download-section .container ul li {
+		font-size: 2em;
+	}
 }
 
 .btn-circle {
