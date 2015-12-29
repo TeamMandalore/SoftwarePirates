@@ -178,6 +178,10 @@ a:focus {
 	#program .download-section .container ul li {
 		font-size: 2em;
 	}
+
+	#program .download-section .container ul li span{
+		color: rgba(17, 145, 57, 0.81);
+	}
 }
 
 .btn-circle {
