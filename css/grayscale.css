@@ -103,7 +103,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(255,255,255,0.3);
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -126,7 +126,6 @@ a:focus {
 .intro .intro-body {
 	display: table-cell;
 	vertical-align: middle;
-	background-image: url(url);
 }
 
 .intro .intro-body .brand-heading {
@@ -139,34 +138,31 @@ a:focus {
 
 @media(min-width : 632px ){
     .intro {
-	height: 100%;
-	padding: 0;
+		height: 100%;
+		padding: 0;
 	}
 
     .intro .intro-body .brand-heading {
-	font-size: 71px;
-	margin-top: 16px;
-	border-radius: 23px;
-	padding-top: 0px;
-	background-repeat: repeat;
-	background-image: url(../../../../Documents/Unnamed%20Site%202/pirate-ship-wallpaper.jpg);
-	background-attachment: fixed;
-	-webkit-box-shadow: 2px 3px 26px -3px #666666;
-	box-shadow: 2px 3px 26px -3px #666666;
-	text-shadow: -2px 1px 13px;
-	border-top: 1px solid #2A2727;
-	border-bottom: 2px solid #251D1D;
+		font-size: 71px;
+		margin-top: 16px;
+		border-radius: 23px;
+		padding-top: 0;
+		-webkit-box-shadow: 2px 3px 26px -3px #666666;
+		box-shadow: 2px 3px 26px -3px #666666;
+		text-shadow: -2px 1px 13px;
+		border-top: 1px solid #2A2727;
+		border-bottom: 2px solid #251D1D;
     }
 
     .intro .intro-body .intro-text {
-	font-size: 1.7em;
-	width: 95%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: justify;
-	font-family: 'Neucha', Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-style: normal;
-	text-indent: 14px;
+		font-size: 1.7em;
+		width: 95%;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: justify;
+		font-family: 'Neucha', Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-style: normal;
+		text-indent: 14px;
     }
 
     .intro .intro-body .container .row img {
@@ -266,9 +262,8 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
+	background: #000 url(../img/pirate-ship.jpg) no-repeat scroll center center;
+	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
