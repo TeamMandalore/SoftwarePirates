@@ -175,6 +175,11 @@ a:focus {
 		font-size: 2em;
 	}
 
+    .download-section .container ul li p{
+        font-size: 0.85em;
+        color: rgba(214, 244, 216, 0.85);
+    }
+
 	#program .download-section .container ul li span{
 		color: rgba(17, 145, 57, 0.81);
 	}
