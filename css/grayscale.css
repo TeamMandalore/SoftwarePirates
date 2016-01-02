@@ -171,6 +171,12 @@ a:focus {
         width: 25%;
     }
 
+	#trainers .download-section .container img {
+		float: left;
+		margin: 5px;
+		width: 30%;
+	}
+
 	.download-section .container ul li {
 		font-size: 2em;
 	}
