@@ -4,6 +4,7 @@ body {
     font-family: 'Neucha', cursive, Lora, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.9);
+	webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 html {
@@ -360,7 +361,11 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+.col-sm-2 {
+	margin: 0;
+	font-size: 1.5em;
 }
 
+.col-sm-10 {
+	margin-top: 10px;
+}
