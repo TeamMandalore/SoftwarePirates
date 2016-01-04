@@ -233,7 +233,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -250,7 +250,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -303,7 +303,9 @@ a:focus {
     color: #42dca3;
     background-color: transparent;
 }
-
+.btn-secondary{
+    color:black;
+}
 .btn-default:hover,
 .btn-default:focus {
     border: 1px solid #42dca3;
@@ -366,7 +368,10 @@ img::-moz-selection {
 	margin: 0;
 	font-size: 1.5em;
 }
+<<<<<<< HEAD
+=======
 
 .col-sm-10 {
 	margin-top: 10px;
 }
+>>>>>>> origin/master
