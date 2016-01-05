@@ -372,3 +372,7 @@ img::-moz-selection {
 .col-sm-10 {
 	margin-top: 10px;
 }
+
+.thumb {
+    margin-bottom: 0;
+}
