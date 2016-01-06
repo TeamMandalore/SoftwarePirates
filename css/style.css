@@ -311,9 +311,11 @@ a:focus {
     color: #42dca3;
     background-color: transparent;
 }
+
 .btn-secondary{
     color:black;
 }
+
 .btn-default:hover,
 .btn-default:focus {
     border: 1px solid #42dca3;
